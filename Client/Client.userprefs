@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{CD806563-15FB-B918-DFFC-3093DD89B3E5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/common/UIBase.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameMain.cs" Line="20" Column="35" />
+      <File FileName="Assets/Scripts/StageMachine/GameStageMachine.cs" Line="50" Column="23" />
+      <File FileName="Assets/Scripts/UI/common/UGUIEventTrigger.cs" Line="10" Column="27" />
+      <File FileName="Assets/Scripts/UI/common/UIBase.cs" Line="11" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="Unity.Editor" />
+</Properties>
