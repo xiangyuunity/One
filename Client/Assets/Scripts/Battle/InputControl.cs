@@ -28,15 +28,15 @@ public class InputControl : MonoBehaviour
     private void KeyControl()
     {
         float deltaX = Input.GetAxisRaw("Horizontal") * MoveSpeed * Time.deltaTime;
-        float deltaZ = Input.GetAxisRaw("Vertical") * MoveSpeed * Time.deltaTime;
-        Vector3 movement = new Vector3(deltaX, 0, deltaZ);
+        float deltaY = Input.GetAxisRaw("Vertical") * MoveSpeed * Time.deltaTime;
+        Vector3 movement = new Vector3(deltaX, deltaY ,0);
         transform.position = transform.position + movement;
     }
     private void GravityControl()
     {
         float deltaX = Input.acceleration.x * MoveSpeed * Time.deltaTime;
-        float deltaZ = Input.acceleration.y * MoveSpeed * Time.deltaTime;
-        Vector3 movement = new Vector3(deltaX, 0, deltaZ);
+        float deltaY = Input.acceleration.y * MoveSpeed * Time.deltaTime;
+        Vector3 movement = new Vector3(deltaX, deltaY , 0);
         transform.position = transform.position + movement;
     }
 
